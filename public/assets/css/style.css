@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2E2924;
+}
+nav {
+    background-color: #6AA84F;
+}
+#modalUserLogin {
+    font-family: 'Roboto', sans-serif;
+}
+.modal-content {
+    background: #4A433B;
+    color:#f0f0f0;
+}
+#bgRegisterModal {
+    height: 25vh;
+    background-color: #6AA84F;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+}
+#connectAccount {
+    background-color: #6AA84F;
+    font-family: 'Roboto', sans-serif;
+    color:#f0f0f0;
+    font-weight: 600;
+}
+#createAccount {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    color:#6AA84F;
+    font-weight: 600;
+}
+#nav-offcanvas {
+    font-family: 'Roboto', sans-serif;
+}
+#button-discord {
+    background-color: #5865F2;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #f0f0f0;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+}
+.card img {
+    height: 45vh;
+}
+#title-card-white {
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    font-weight: 600;
+}
+#bg-color-top-bottom-card {
+    background-color: #4A433B;
+}
+#bg-color-body-card {
+    background-color: #3C3630;
+}
+#button-green {
+    background-color: #6AA84F;
+    font-family: 'Roboto', sans-serif;
+    color:#f0f0f0;
+    font-weight: 600;
+}
+
+#bgColorText {
+    background-color: #4A433B;
+}
