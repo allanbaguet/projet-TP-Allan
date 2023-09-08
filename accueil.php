@@ -14,14 +14,16 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./accueil.php">
                 <img src="/public/assets/img/panoplies/aventurier/chapeau.png" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">
             </a>
             <div class="user d-flex">
-                <button class="btn" data-bs-target="#modalUserLogin" data-bs-toggle="modal">
-                    <i class="bi bi-person-fill text-white px-3"></i>
-                </button>
+                <a class="navbar-brand" href="./connexion.php">
+                    <button class="btn">
+                        <i class="bi bi-person-fill text-white px-3"></i>
+                    </button>
+                </a>
                 <button class="navbar-toggler py-2" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <i class="bi bi-list text-white"></i>
@@ -38,17 +40,17 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav" id="nav-offcanvas">
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white" href="/studio-ankama.html">Histoire d'Ankama</a>
+                            <a class="nav-link text-white border rounded w-50 text-center" href="/studio-ankama.html">Histoire d'Ankama</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white" href="./histoire_dofus.html">Histoire de Dofus</a>
+                            <a class="nav-link text-white border rounded w-50 text-center" href="./histoire_dofus.html">Histoire de Dofus</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white" href="./lexique.html">Lexique</a>
+                            <a class="nav-link text-white border rounded w-50 text-center" href="./lexique.html">Lexique</a>
                         </li>
                         <li class="nav-item d-flex justify-content-center">
                             <button type="button" class="btn" id="button-discord">
-                                <a class="nav-link text-white" href="#">Discord <i class="bi bi-discord"></i></a>
+                                <a class="nav-link text-white" href="https://discord.gg/3tqqS55S" target="_blank">Discord <i class="bi bi-discord"></i></a>
                             </button>
                         </li>
                     </ul>
@@ -57,7 +59,7 @@
         </div>
     </nav>
     <!---------------------------------DEBUT MODAL CONNEXION-->
-    <div class="modal fade" id="modalUserLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    <!-- <div class="modal fade" id="modalUserLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -92,7 +94,7 @@
                             compte ?
                             Incrits-toi pour profiter de toutes les fonctionnalités du site !</p>
                         <div class="d-flex justify-content-center">
-                            <button id="createAccount" class="btn" data-bs-target="#modalUserRegister"
+                            <button id="connectAccount" class="btn" data-bs-target="#modalUserRegister"
                                 data-bs-toggle="modal">Créer un compte</button>
                         </div>
                     </div>
@@ -100,10 +102,10 @@
                 <div class="py-3"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!---------------------------------FIN MODAL CONNEXION-->
     <!---------------------------------DEBUT MODAL INSCRIPTION-->
-    <div class="modal fade" id="modalUserRegister" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    <!-- <div class="modal fade" id="modalUserRegister" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -138,12 +140,12 @@
                     </form>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
-                    <button id="connectAccount" data-bs-target="#modalUserLogin" data-bs-toggle="modal" type="submit"
+                    <button id="createAccount"  data-bs-toggle="modal" type="submit"
                         class="btn">Valider</button>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!---------------------------------FIN MODAL INSCRIPTION-->
     <header>
         <div class="container-fluid">
@@ -198,7 +200,7 @@
                         <h5 class="card-title p-3" id="title-card-white">Forum Dofus</h5>
                         <p class="card-text p-3">Trouver ici le forum de Dofus</p>
                         <div class="d-flex justify-content-center card-footer p-2" id="bg-color-top-bottom-card">
-                            <a href="https://www.dofus.com/fr/forum" class="btn" id="button-green">Forum Dofus</a>
+                            <a href="https://www.dofus.com/fr/forum" class="btn" id="button-green" target="_blank">Forum Dofus</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +217,7 @@
                         <h5 class="card-title p-3" id="title-card-white">Twitter Dofus</h5>
                         <p class="card-text p-3">Trouver ici le twitter de Dofus</p>
                         <div class="d-flex justify-content-center card-footer p-2" id="bg-color-top-bottom-card">
-                            <a href="https://twitter.com/DOFUSfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn" id="button-green">Twitter Dofus</a>
+                            <a href="https://twitter.com/DOFUSfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn" id="button-green" target="_blank">Twitter Dofus</a>
                         </div>
                     </div>
                 </div>

@@ -13,11 +13,11 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./accueil.php">
                 <img src="/public/assets/img/panoplies/aventurier/chapeau.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             </a>
             <div class="user d-flex">
-                <!-- <a class="navbar-brand" href="./connexion.php"> -->
+                <a class="navbar-brand" href="./connexion.php">
                     <button class="btn">
                         <i class="bi bi-person-fill text-white px-3"></i>
                     </button>
@@ -57,67 +57,44 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <form>
+                <h3 class="text-uppercase text-center text-white py-3">
+                    connexion</h3>
+                <form id="connexionForm" action="" method="POST">
                     <fieldset>
-                        <legend></legend>
                         <div class="mb-3">
-                            <label for="mailPseudo" class="form-label">Pseudo ou adresse mail</label>
-                            <input type="email" class="form-control" id="mailPseudo" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text"></div>
+                            <label for="pseudo" class="form-label">Pseudo</label>
+                            <input type="text" class="form-control" id="pseudo" name="pseudo" aria-describedby="pseudoHelp">
+                            <div id="pseudoHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Mot de passe</label>
-                            <input type="password" class="form-control" id="password">
+                            <input type="password" class="form-control" name="password" id="password">
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <button id="connectAccount" type="submit" class="btn">Connexion</button>
+                        <div class="d-flex justify-content-center py-4">
+                            <button id="createAccount" type="submit" class="btn">Connexion</button>
                         </div>
-                        
-                    </fieldset>
+                    </fieldset> 
                 </form>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalUserLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <h3 class="modal-title fs-5 text-uppercase w-100 text-center" id="exampleModalToggleLabel">connexion
-                    </h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Pseudo ou adresse mail</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button id="connectAccount" type="submit" class="btn">Connexion</button>
-                        </div>
-                    </form>
-                </div>
-                <hr class="hr-2">
-                    <h3 class="modal-title fs-5 text-uppercase py-3 text-center" id="exampleModalToggleLabel">
-                        inscription</h3>
-                    <div id="bgRegisterModal" class="py-3">
-                        <p id="textRegisterModal" class="d-flex text-center p-2">Tu n’as pas encore de
-                            compte ?
-                            Incrits-toi pour profiter de toutes les fonctionnalités du site !</p>
-                        <div class="d-flex justify-content-center">
-                            <button id="createAccount" class="btn" data-bs-target="#modalUserRegister" data-bs-toggle="modal">Créer un compte</button>
-                        </div>
-                    </div>
-                <div class="py-3"></div>
-            </div>
+    <hr class="hr-2 ">
+
+    <h3 class="py-3 text-white text-center">inscription</h3>
+
+
+    <div id="bgRegister" class="py-3">
+        <p id="textRegister" class="d-flex text-center p-2">Tu n’as pas encore de
+            compte ?
+            Incrits-toi pour profiter de toutes les fonctionnalités du site !</p>
+        <div class="d-flex justify-content-center">
+            <a href="./inscription.php">
+                <button id="connectAccount" class="btn">Créer un compte</button>
+            </a>
         </div>
     </div>
+    <div class="py-3"></div>
 
     <footer>
         <div class="container-fluid bg-black">
