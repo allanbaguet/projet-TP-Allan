@@ -1,87 +1,3 @@
-    <!---------------------------------DEBUT MODAL CONNEXION-->
-    <div class="modal fade" id="modalUserLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <h3 class="modal-title fs-5 text-uppercase w-100 text-center" id="exampleModalToggleLabel">connexion
-                    </h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Pseudo ou adresse mail</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button id="connectAccount" type="submit" class="btn">Connexion</button>
-                        </div>
-                    </form>
-                </div>
-                <hr class="hr-2">
-                <div class="modal-body p-0">
-                    <h3 class="modal-title fs-5 text-uppercase py-3 text-center" id="exampleModalToggleLabel">
-                        inscription</h3>
-                    <div id="bgRegisterModal" class="py-3">
-                        <p id="textRegisterModal" class="d-flex text-center p-2">Tu n’as pas encore de
-                            compte ?
-                            Incrits-toi pour profiter de toutes les fonctionnalités du site !</p>
-                        <div class="d-flex justify-content-center">
-                            <button id="createAccount" class="btn" data-bs-target="#modalUserRegister"
-                                data-bs-toggle="modal">Créer un compte</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="py-3"></div>
-            </div>
-        </div>
-    </div>
-    <!---------------------------------FIN MODAL CONNEXION-->
-    <!---------------------------------DEBUT MODAL INSCRIPTION-->
-    <div class="modal fade" id="modalUserRegister" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-        tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title fs-5 text-uppercase w-100 text-center" id="exampleModalToggleLabel2">
-                        inscription</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Pseudo</label>
-                            <input type="text" class="form-control" id="inputRegisterPseudo"
-                                aria-describedby="pseudoHelp">
-                            <div id="pseudoHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputRegisterEmail"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                            <input type="password" class="form-control" id="inputRegisterPassword">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button id="connectAccount" data-bs-target="#modalUserLogin" data-bs-toggle="modal" type="submit"
-                        class="btn">Valider</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!---------------------------------FIN MODAL INSCRIPTION-->
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -95,7 +11,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 p-3 rounded" id="bgColorText">
+            <div class="col-10 p-3 rounded fs-5 my-4" id="bgColorText">
                 <p>Dofus est un jeu de rôle en ligne massivement multijoueur (MMORPG) français développé
                     et édité par Ankama puis par sa filiale Ankama Games à sa création en 2004.</p>
 
@@ -112,9 +28,9 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row py-5">
+        <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 p-3 rounded" id="bgColorText">
+            <div class="col-10 p-3 rounded fs-5 my-4" id="bgColorText">
                 <p>Après son succès durable dans la fin des années 2000 et début 2010, Dofus perd de l'ampleur.</p>
 
                 <p>L'équipe choisit donc de fusionner certains de ses serveurs pour rassembler la communauté. </p>
@@ -127,9 +43,9 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row py-2">
+        <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 p-3 rounded" id="bgColorText">
+            <div class="col-10 p-3 rounded fs-5 my-4" id="bgColorText">
                 <p>En plus de sa version PC pour Mac, Linux et Windows, Ankama a sorti en 2016
                     une version Mobile intitulée « Dofus Touch ». </p>
 
@@ -144,9 +60,9 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row py-5">
+        <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 p-3 rounded" id="bgColorText">
+            <div class="col-10 p-3 rounded fs-5 my-4" id="bgColorText">
                 <p>Le mercredi 30 septembre 2020, pour célébrer le premier anniversaire des serveurs Dofus Rétro,
                     de nouveaux serveurs spécifiquement « monocomptes » sont ouverts. </p>
 
@@ -177,9 +93,9 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row py-5">
+        <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 p-3 rounded" id="bgColorText">
+            <div class="col-10 p-3 rounded fs-5 my-5" id="bgColorText">
                 <p>Dofus prend place dans le Monde des Douze, un univers médiéval-fantastique. Les joueurs doivent
                     retrouver six Dofus primordiaux,
                     des œufs de dragons conférant une grande puissance à leur porteur, qui sont dispersés aux quatre
@@ -213,27 +129,27 @@
                 <p>Il existe aussi diverses fonctionnalités :</p>
 
                 <ul class="text-white">
-                    <li>
+                    <li class="liDofus">
                         Créer de l'équipement, amélioration de ces objets ou récolte de ressources
                         par la réalisation de métiers ;
                     </li>
-                    <li>
+                    <li class="liDofus">
                         Battre des champions de donjons avec des mécaniques de jeu variées et
                         des niveaux de difficultés différents ;
                     </li>
-                    <li>
+                    <li class="liDofus">
                         Participer à des Tournois ou combats de « Kolizeum »"(Arène) contre d'autres
                         joueurs ;
                     </li>
-                    <li>
+                    <li class="liDofus">
                         Rencontrer de nouvelles personnes via le côté social développé du jeu
                         (Guildes, Alliances, Groupes) ;
                     </li>
-                    <li>
+                    <li class="liDofus">
                         Réaliser des quêtes afin de découvrir l'univers du jeu, mais aussi pour
                         acquérir des objets inédits ou des ressources spéciales ;
                     </li>
-                    <li>
+                    <li class="liDofus">
                         Faire des chasses aux trésors pour l'obtention de ressources spécifiques.
                     </li>
                 </ul>

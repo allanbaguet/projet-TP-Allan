@@ -19,7 +19,7 @@
             <div class="user d-flex">
                 <a class="navbar-brand" href="/controllers/connexion_controller.php">
                     <button class="btn">
-                        <i class="bi bi-person-fill text-white px-3"></i>
+                        <i class="bi bi-person-fill text-white px-3 custom-icon"></i>
                     </button>
                 </a>
                 <button class="navbar-toggler py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -31,24 +31,24 @@
                     <img src="/public/assets/img/user-img.png" alt="image user" width="55" height="55">
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <hr>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav" id="nav-offcanvas">
-                        <li class="nav-item py-1">
-                            <a class="nav-link text-white text-center fs-3 border rounded" href="/controllers/dashboard_controller.php">Dashboard</a>
+                <hr class="d-lg-none">
+                <div class="offcanvas-body d-flex justify-content-center">
+                    <ul class="navbar-nav fs-5 fw-semibold" id="nav-offcanvas">
+                        <li class="nav-item p-2 ">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/dashboard_controller.php">Dashboard</a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/utilisateurs_controller.php">Utilisateurs</a>
+                        <li class="nav-item p-2 ">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/utilisateurs_controller.php">Utilisateurs</a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/donjons_dash_controller.php">Donjons</a>
+                        <li class="nav-item p-2 ">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/donjons_dash_controller.php">Donjons</a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/guides_dash_controller.php">Guides</a>
+                        <li class="nav-item p-2 ">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/guides_dash_controller.php">Guides</a>
                         </li>
-                        <hr class="my-2">
+                        <hr class="my-2 d-lg-none">
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/accueil_controller.php">Retour au site</a>
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/accueil_controller.php">Retour au site</a>
                         </li>
                         <!-- <li class="nav-item d-flex justify-content-center">
                             <button type="button" class="btn" id="button-discord">
