@@ -13,7 +13,7 @@
                 <button type="button" class="btn mb-5" id="button-green">+ Guide preset 2</button>
             </a>
         </div>
-        <div class="row">
+        <div class="row my-5">
             <div class="col">
                 <table class="table table-bordered">
                     <thead>

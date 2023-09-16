@@ -5,9 +5,9 @@
             </svg>
         </a>
 
-        <h1 class="text-center mb-4">Utilisateurs</h1>
+        <h1 class="text-center mb-4 ">Utilisateurs</h1>
         <div class="row">
-            <div class="col">
+            <div class="col my-5">
                 <table class="table table-bordered">
                     <thead>
                         <tr class="text-center table-active">

@@ -21,7 +21,7 @@
             <div class="user d-flex">
                 <a class="navbar-brand" href="/controllers/connexion_controller.php">
                     <button class="btn">
-                        <i class="bi bi-person-fill text-white px-3"></i>
+                        <i class="bi bi-person-fill text-white px-3 custom-icon"></i>
                     </button>
                 </a>
                 <button class="navbar-toggler py-2" type="button" data-bs-toggle="offcanvas"
@@ -38,17 +38,17 @@
                 </div>
                 <hr class="d-lg-none">
                 <div class="offcanvas-body d-flex justify-content-center">
-                    <ul class="navbar-nav fs-5" id="nav-offcanvas">
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white text-center" href="/controllers/studio_ankama_controller.php">Histoire d'Ankama</a>
+                    <ul class="navbar-nav fs-5 fw-semibold" id="nav-offcanvas">
+                        <li class="nav-item p-2 px-5">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/studio_ankama_controller.php">Histoire d'Ankama</a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white text-center" href="/controllers/histoire_dofus_controller.php">Histoire de Dofus</a>
+                        <li class="nav-item p-2 px-5">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/histoire_dofus_controller.php">Histoire de Dofus</a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a class="nav-link text-white text-center" href="/controllers/lexique_controller.php">Lexique</a>
+                        <li class="nav-item p-2 px-5">
+                            <a class="nav-link text-white text-center text-uppercase txtNavbar" href="/controllers/lexique_controller.php">Lexique</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex justify-content-center px-5">
                             <button type="button" class="btn" id="button-discord">
                                 <a class="nav-link text-white fs-5" href="https://discord.gg/3tqqS55S" target="_blank">Discord <i class="bi bi-discord"></i></a>
                             </button>

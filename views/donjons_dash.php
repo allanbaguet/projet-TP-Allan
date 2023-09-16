@@ -5,10 +5,13 @@
             </svg>
         </a>
         <h1 class="text-center mb-4">Liste des donjons</h1>
-        <a href="/controllers/preset_donjon_controller.php">
-            <button type="button" class="btn mb-4" id="button-green">+ Nouveau donjon</button>
-        </a>
-        <div class="row">
+        <div class="d-flex justify-content-center">
+            <a href="/controllers/preset_donjon_controller.php">
+                <button type="button" class="btn mb-4" id="button-green">+ Nouveau donjon</button>
+            </a>
+
+        </div>
+        <div class="row my-5">
             <div class="col">
                 <table class="table table-bordered">
                     <thead>
