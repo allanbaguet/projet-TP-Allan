@@ -36,21 +36,21 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
-                <hr>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav" id="nav-offcanvas">
+                <hr class="d-lg-none">
+                <div class="offcanvas-body d-flex justify-content-center">
+                    <ul class="navbar-nav fs-5" id="nav-offcanvas">
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/studio_ankama_controller.php">Histoire d'Ankama</a>
+                            <a class="nav-link text-white text-center" href="/controllers/studio_ankama_controller.php">Histoire d'Ankama</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/histoire_dofus_controller.php">Histoire de Dofus</a>
+                            <a class="nav-link text-white text-center" href="/controllers/histoire_dofus_controller.php">Histoire de Dofus</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link text-white border rounded w-50 text-center" href="/controllers/lexique_controller.php">Lexique</a>
+                            <a class="nav-link text-white text-center" href="/controllers/lexique_controller.php">Lexique</a>
                         </li>
-                        <li class="nav-item d-flex justify-content-center">
+                        <li class="nav-item">
                             <button type="button" class="btn" id="button-discord">
-                                <a class="nav-link text-white" href="https://discord.gg/3tqqS55S" target="_blank">Discord <i class="bi bi-discord"></i></a>
+                                <a class="nav-link text-white fs-5" href="https://discord.gg/3tqqS55S" target="_blank">Discord <i class="bi bi-discord"></i></a>
                             </button>
                         </li>
                     </ul>
